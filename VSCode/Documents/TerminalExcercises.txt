@@ -1,0 +1,22 @@
+mkdir first
+cd first/
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r second
+rmdir second
+
+// part 2
+
+Man command pulls up the manual pages for the command. Q to quit.
+-a shows all files, -l use a long listing format
+alt + left/right
+Ctrl + e
+Ctrl + a
+Ctrl + w
+Terminal is just a text input box. Shell is what actually runs the commands.
+An absolute path is the complete path for the file on your hard drive
+A relative path is the path in reference to another file. Common references are home ~ and root /
+a flag allows you to modify the command you are giving the terminal -a -l -rwx
+-r removes all files inside of the item you are removing, -f ignores nonexistent files and won't prompt

@@ -1,0 +1,98 @@
+h1 {
+    transition: 3000ms;
+}
+
+.form {
+    margin: 3px;
+    width: 45vw;
+    height: 2rem;
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+.formText {
+    font-size: 1.5rem;
+}
+
+.big-container {
+    display: flex;
+}
+
+.content-container {
+    width: 50vw;
+    position: relative;
+}
+
+/* Input container */
+.input {
+    width: 45vw;
+    margin:30px;
+    margin-right: 50px;
+}
+
+/* p in forms */
+p  {
+    display: flex;
+    justify-content: center;
+}
+
+/* Submit Button */
+button {
+   padding: 5px; 
+   font-size:20px;
+   background-color: #08d1ce;
+   border-radius: 5px;
+   color: white;
+   border-color: gainsboro;
+}
+
+hr {
+    margin-bottom: 50px;
+}
+
+/* image and cover container */
+.image {
+    position: relative;
+    overflow:hidden;
+    max-width: max-content;
+    min-width: min-content;
+  }
+  
+  /* Cover */
+.cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #a0a0a0;
+    opacity: .82;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    bottom: -100%;
+    transition: 500ms ease-in-out;
+    border-radius: 5px;
+    z-index: 3;
+}
+  
+/* Buttons in cover */
+.box {      
+    width: 70%;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 2em;
+    color: white;
+    background-color: #111111;
+}
+
+.image:hover .cover {
+  transform: translateY(-100%);
+}
+
+.box:hover {
+    background: #222222;
+}
+
+body {
+    position: absolute;
+}

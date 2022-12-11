@@ -1,0 +1,10 @@
+1. git branch "branchname" or git checkout -b "branchname"
+
+2. a fast forward merge is a merge where all events line up, and there is no errors in how the code merges
+    A recursive merge is one where you have conflicting changes.
+
+3. git checkout "branchname"
+
+4. git branch -d "branchname" Won't work if you will lose files. git branch -D "branchname" overrides
+
+5. merge conflicts happen when you or someone else makes a change, and someone else makes a change and you try to merge it.
